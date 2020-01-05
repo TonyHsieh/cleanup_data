@@ -68,7 +68,7 @@ def cleanFile(targetFilename):
 # Main Function
 # use argparse to get the args properly. - from https://docs.python.org/3/library/argparse.html#module-argparse
 parser = argparse.ArgumentParser(
-    description='Clean up Data files in current directory.')
+    description='Clean up Data files in current directory - Create/Append (if existing) output in "clean_data.txt" - Tab-delimited')
 parser.add_argument('--file', dest='file', action='store',
                     help='Clean up a specified file (default: all files in current directory)')
 parser.add_argument('--path', dest='path', action='store',
