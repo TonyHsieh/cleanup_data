@@ -14,3 +14,7 @@ optional arguments:
   --file FILE  Clean up a specified file (default: all files in current
                directory)
   --path PATH  Target specified directory (default: current directory)
+
+
+
+[![Run on Repl.it](https://repl.it/badge/github/TonyHsieh/cleanup_data)](https://repl.it/github/TonyHsieh/cleanup_data)
